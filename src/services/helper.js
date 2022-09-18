@@ -2,10 +2,10 @@ import axios from "axios";
 import { getToken } from "../auth";
 
 // dev
-//export const BASE_URL = "http://localhost:9091/api/v1";
+export const BASE_URL = "http://localhost:9091/api/v1";
 
 // prod
-export const BASE_URL = "http://webbasedblogapp-env.eba-3isy8t6t.us-west-1.elasticbeanstalk.com/api/v1";
+//export const BASE_URL = "http://webbasedblogapp-env.eba-3isy8t6t.us-west-1.elasticbeanstalk.com/api/v1";
 
 
 export const myAxios = axios.create({
