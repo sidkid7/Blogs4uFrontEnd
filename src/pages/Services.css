@@ -1,0 +1,31 @@
+.categorySelect{
+        /* justify-content: space-between; */
+        font-size: xx-large;
+        vertical-align: 0.02em;
+        /* inline-size: -webkit-fill-available; */
+        
+}
+
+.categoryDrop{
+        height: 34%;
+        margin: auto 0;
+        outline: white;
+        box-shadow: 0.5px 0.5px grey;
+        background: hsl(192, 15%, 94%)!important;
+        outline: 1px;
+        border: 1px;
+}
+
+.dropMenu{
+        left: 50% !important;
+        right: auto !important;
+        text-align: center !important;
+        transform: translate(-50%, 20%) !important;
+        outline: white;
+        box-shadow: 0.5px 0.5px grey;
+        background: rgba(255, 255, 255,)!important;
+        outline: 1px;
+        border: 1px;
+        width: 60%;
+        font-size: 100%
+}
