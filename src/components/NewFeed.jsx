@@ -20,6 +20,7 @@ import {
   DropdownItem,
 } from "reactstrap";
 import { NavLink as ReactLink } from "react-router-dom";
+import '../PageStyle.css'
 function NewFeed() {
   const [postContent, setPostContent] = useState({
     content: [],

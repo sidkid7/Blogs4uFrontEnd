@@ -66,3 +66,12 @@ export const deletePostById = (postId) => {
 };
 
 
+export const updatePostById = (postData) => { 
+  //   console.log(postData);
+  return privateAxios
+    .put(
+      `/posts/${postData.postId}`,
+      postData
+    )
+    .then((response) => response.data);
+};

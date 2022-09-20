@@ -24,6 +24,7 @@ import Travel from "./pages/CategoryPages/Travel";
 import Health from "./pages/CategoryPages/Health";
 import Food from "./pages/CategoryPages/Food";
 import Sports from "./pages/CategoryPages/Sports";
+import UserdashUpdate from "./pages/user-routes/UserdashUpdate";
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
 
         <Route path="/user" element={<Privateroute />}>
           <Route path="dashboard" element={<Userdashboard />} />
+          <Route path="dashboardUpdate" element={<UserdashUpdate />} />
           <Route path="profile-info" element={<ProfileInfo />} />
         </Route>
 

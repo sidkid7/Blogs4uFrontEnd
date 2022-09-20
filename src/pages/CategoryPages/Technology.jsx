@@ -9,6 +9,8 @@ import Post from "../../components/Post";
 import { loadPostByCat } from "../../services/post-service";
 import { NavLink as ReactLink } from "react-router-dom";
 import {Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from "reactstrap";
+
+
 const Technology = () => {
 
   
